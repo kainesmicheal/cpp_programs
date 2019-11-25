@@ -28,7 +28,7 @@ int main()
 {
 	std::vector<Entity> a;
 	a.reserve(3); // allocates memory
-	a.emplace_back(1,2); //created the object outside the main
+	a.emplace_back(1,2); //creates the object outside the main
 	a.emplace_back(3,2);
 	a.emplace_back(6,2);
 	for(int i=0; i < a.size(); i++)
